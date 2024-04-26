@@ -70,7 +70,7 @@ public class Main {
                 bus++;
                 total = total - 4;
             }
-            if (total > 0) {
+            if (total > 0 && total < 4) {
                 bus++;
                 total = 0;
             }
